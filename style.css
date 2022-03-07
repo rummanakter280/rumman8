@@ -1,0 +1,590 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+body {
+    background: url(img/background1.png);
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+
+}
+
+
+/*header style*/
+header {
+    background: url(img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    float: left;
+    padding: 10px 0;
+    margin-bottom: -200px;
+
+}
+
+.main_header {
+    width: 100%;
+    float: left;
+    padding: 10px 0;
+}
+
+.logo_part {
+    width: 50%;
+    float: left;
+}
+
+.logo_part img {}
+
+.manu_bar {
+    width: 50%;
+    float: left;
+}
+
+.manu_bar ul {
+    margin: 10px auto;
+
+}
+
+.manu_bar ul li {
+    list-style: none;
+    display: inline-block;
+    float: inline-end;
+}
+
+.manu_bar ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px;
+    color: aliceblue;
+
+
+}
+
+.manu_bar ul li a:hover {
+    color: brown;
+
+}
+
+.hero_area {
+    width: 100%;
+    float: left;
+    text-align: center;
+
+}
+
+.hero_area h1 {
+    padding-top: 20px;
+    color: aliceblue;
+}
+
+.hero_area p {
+    padding-top: 20px;
+    color: aliceblue;
+    padding-bottom: 20px;
+}
+
+.hero_area a button {
+    padding-top: 20px;
+    padding: 5px;
+    border-radius: 1px solid #0000;
+    color: brown;
+
+}
+
+.hero_area a button:hover {
+    background-color: aqua;
+    color: blueviolet;
+}
+
+.hero_area img {
+
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    display: block;
+    margin: auto;
+
+}
+
+/*fecature style*/
+#feature {
+    background: url(img/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    float: left;
+    padding: 200px 0px;
+
+
+}
+
+.feature_img_part {
+    width: 30%;
+    float: left;
+}
+
+.feature_img_part img {
+    padding: 20px;
+    width: 200px;
+
+    display: block;
+
+}
+
+.feature_box_part {
+    width: 70%;
+    float: left;
+
+
+
+}
+
+feature_box {
+    width: 100%;
+    float: left;
+}
+
+.feature {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+}
+
+.feature_box h2 {
+    margin-bottom: 5px;
+}
+
+.feature_box :hover {
+    color: aqua;
+}
+
+.one {
+    position: relative;
+    top: -60px;
+    right: 10px;
+}
+
+.two {
+    position: relative;
+    top: 0px;
+    right: -30px;
+}
+
+.three {
+    position: relative;
+    top: -20px;
+    right: 50px;
+}
+
+.four {
+    position: relative;
+    top: 60px;
+    right: 10px;
+}
+
+/*amout section*/
+#about_parrt {
+    width: 100%;
+    float: left;
+    background: #fbeded;
+}
+
+.about_part_text {
+    width: 40%;
+    float: left;
+}
+
+.about_part_text h3 {
+    float: right;
+    margin-right: 50px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.about_part_text p {
+    float: right;
+    margin-right: 50px;
+    padding: 20px;
+    text-align: right;
+    font-size: 15px;
+}
+
+.about_part_text a button {
+    float: right;
+    margin-right: 70px;
+    padding: 5px;
+    background: #33d2fd;
+    border-style: none;
+    color: #dae4fb;
+    border-radius: 5px;
+
+}
+
+.about_part_text a button:hover {
+
+    background: #ffecfb;
+    color: aqua;
+
+}
+
+
+.about_part_info {
+    width: 60%;
+    float: left;
+}
+
+.info1 {
+    width: 100%;
+    float: left;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+.info1 img {
+    float: left;
+    padding: 5px;
+
+}
+
+
+.info1 p {
+
+    float: left;
+    padding: 5px;
+
+}
+
+.info2 {
+    width: 100%;
+    float: left;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+    padding: 20px;
+    background: #33d2f9;
+    margin-bottom: 5px;
+
+}
+
+.info2 img {
+    float: left;
+    padding: 5px;
+    width: 30px;
+
+}
+
+
+.info2 h4 {
+    font-size: 20px;
+    float: left;
+    padding: 5px;
+    margin-top: 5px;
+
+}
+
+.info2 p {
+
+    float: left;
+    padding: 5px;
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+}
+
+
+.info3 {
+    width: 100%;
+    float: left;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+.info3 img {
+    float: left;
+    padding: 5px;
+
+}
+
+
+.info3 p {
+
+    float: left;
+    padding: 5px;
+
+}
+
+.info4 {
+    width: 100%;
+    float: left;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+.info4 img {
+    float: left;
+    padding: 5px;
+
+}
+
+
+.info4 p {
+
+    float: left;
+    padding: 5px;
+
+}
+
+/*about one section*/
+#about_one {
+    width: 100%;
+    float: left;
+    padding: 20px;
+    background: #ebebf9;
+}
+
+.about_img_part {
+    width: 50%;
+    float: left;
+}
+
+.about_img_part img {
+    width: 350px;
+    float: left;
+}
+
+.about_text_one {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.about_text_one h3 {
+    margin-bottom: 20px;
+}
+
+.about_text_one input {
+    margin-bottom: 5px;
+}
+
+.about_text_one label {
+    margin-bottom: 5px;
+}
+
+.about_text_one p {
+    margin-top: 15px;
+}
+
+/*available_part*/
+#available_part {
+    width: 100%;
+    float: left;
+    padding: 20px;
+    background: #24c8f2;
+
+}
+
+.avilable_img_part {
+    width: 50%;
+    float: left;
+    padding: 10px;
+
+}
+
+.avilable_img_part img {
+    width: 200px;
+    height: 500px;
+    margin-left: 50px;
+}
+
+.avilable_text_part {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+.avilable_text_part h3 {
+    margin-bottom: 20px;
+
+}
+
+.avilable_text_part p {
+    margin-bottom: 20px;
+    font-size: 15px;
+
+}
+
+.google_img img {
+    padding: 5px;
+}
+
+.avilable_text_part button {
+    padding: 10px 30px;
+    background: #f94a7e;
+    color: #fbeded;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 10px;
+    position: relative;
+    margin-top: 300px;
+    margin-left: -100px;
+
+}
+
+/*contact_part*/
+#contact_part {
+    width: 100%;
+    float: left;
+    padding: 20px;
+}
+
+.first_contact {
+    width: 100%;
+    float: left;
+
+}
+
+.contact_one {
+    width: 25%;
+    float: left;
+    padding: 20px;
+}
+
+.contact_one li {
+    list-style: none;
+    margin-top: 5px;
+}
+
+.contact_one h5 {
+
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.contact_two {
+    width: 25%;
+    float: left;
+    padding: 20px;
+}
+
+.contact_two li {
+    list-style: none;
+    margin-top: 5px;
+}
+
+.contact_two h5 {
+
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.contact_three {
+    width: 25%;
+    float: left;
+    padding: 20px;
+}
+
+.contact_three li {
+    list-style: none;
+    margin-top: 5px;
+}
+
+.contact_three h5 {
+
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.contact_four {
+    width: 25%;
+    float: left;
+    padding: 20px;
+}
+
+.contact_four li {
+    list-style: none;
+    margin-top: 5px;
+}
+
+.contact_four h5 {
+
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.second_contact {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.second_contact h1 {
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.second_contact p {
+    margin-bottom: 20px;
+    font-size: 15px;
+
+}
+
+.second_contact button {
+    padding: 10px 20px;
+    background: #24c8f2;
+    color: #fbeded;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 10px;
+    position: relative;
+    margin-left: 700px;
+    margin-top: 50px;
+}
+
+/*footer area*/
+#fotter_area {
+    width: 100%;
+    float: left;
+    padding: 20px;
+    background: #233148;
+}
+
+
+.fotter_text {
+    width: 40%;
+    float: left;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.fotter_icon {
+    width: 60%;
+    float: left;
+    margin-top: 10px;
+}
+
+.fotter_icon li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    float: right;
+    font-size: 20px;
+}
+
+.fotter_icon li a {
+    color: #ffffff;
+}
+
+.fotter_icon li a :hover {
+    color: #29dff1;
+}
